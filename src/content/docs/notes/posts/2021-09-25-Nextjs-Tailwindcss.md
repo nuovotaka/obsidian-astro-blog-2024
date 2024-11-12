@@ -6,8 +6,6 @@ description: Nextjs Tailwind css Github Vercel Netlify Typescript Eslint
 
 ## Nextjs,Tailwind CSS,Vercel,Github の構成図
 
-![構成図](../../../../assets/@@baseUrl@@/assets/images/posts/nextjs-chart.png)
-
 記事の管理をマークダウンで記述して管理したかったのと記事と App を分離したかったのでこのような構成になりました。
 
 App の変更があった場合はそちらだけで更新が可能です。
