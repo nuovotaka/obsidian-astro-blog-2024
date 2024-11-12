@@ -1,0 +1,33 @@
+---
+title: Welcome to Nuovotaka
+description: This is my digital garden powered by Obsidian notes and ASTRO.
+template: splash
+hero:
+  tagline: Obsidian notes and ASTRO
+  image:
+    file: ../../assets/notes/_assets/programing-code.jpeg
+  actions:
+    - text: 現在の状態
+      link: /notes/now/2024-03-21-now/
+      icon: right-arrow
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## Notes
+
+<CardGrid stagger>
+	<Card title="Posts" icon="document">
+		[New Posts](/notes/posts/2023-01-10-obsidian-blog-public/).
+	</Card>
+	<Card title="Books" icon="open-book">
+		[New books](/notes/books/2022-01-11-chikirin-book-1/).
+	</Card>
+	<Card title="Schools" icon="document">
+		[react](/notes/schools/udemy/2023-01-12-react/).
+		[typescript](/notes/schools/udemy/2023-01-12-typescript/).
+	</Card>
+	<Card title="Projects" icon="document">
+		[Projects](/notes/projects/ASSETPRICEJP/).
+	</Card>
+</CardGrid>
