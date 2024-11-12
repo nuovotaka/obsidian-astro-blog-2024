@@ -6,10 +6,6 @@ hero:
   tagline: Obsidian notes and ASTRO
   image:
     file: ../../assets/notes/_assets/programing-code.jpeg
-  actions:
-    - text: 現在の状態
-      link: /notes/now/2024-11-12-now/
-      icon: right-arrow
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -17,6 +13,9 @@ import { Card, CardGrid } from '@astrojs/starlight/components';
 ## Notes
 
 <CardGrid stagger>
+	<Card title="現在の状態" icon="document">
+		[New Posts](/notes/now/2024-11-12-now/).
+	</Card>
 	<Card title="Posts" icon="document">
 		[New Posts](/notes/posts/2024-11-12-obsidian-astro-blog/).
 	</Card>

@@ -1,6 +1,6 @@
 import starlight from '@astrojs/starlight'
 import { defineConfig } from 'astro/config'
-import starlightObsidian, { obsidianSidebarGroup } from 'starlight-obsidian'
+import starlightObsidian from 'starlight-obsidian'
 
 export default defineConfig({
   integrations: [
@@ -11,14 +11,14 @@ export default defineConfig({
           vault: './vault/public',
         }),
       ],
-      sidebar: [
-        {
-          label: '現状',
-          items: [{ label:"現在の状態", link: '/notes/now/2024-11-12-now/' }],
-        },
-        // Add the generated sidebar group to the sidebar.
-        obsidianSidebarGroup,
-      ],
+      // sidebar: [
+      //   {
+      //     label: '現状',
+      //     items: [{ label:"現在の状態", link: '/notes/now/2024-11-12-now/' }],
+      //   },
+      //   // Add the generated sidebar group to the sidebar.
+      //   obsidianSidebarGroup,
+      // ],
       title: 'NUOVOTAKA',
     }),
   ],
