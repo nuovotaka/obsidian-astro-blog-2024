@@ -14,7 +14,7 @@ export default defineConfig({
       sidebar: [
         {
           label: '現状',
-          items: [{ label:"現在の状態", link: '/notes/now/2024-03-21-now/' }],
+          items: [{ label:"現在の状態", link: '/notes/now/2024-11-12-now/' }],
         },
         // Add the generated sidebar group to the sidebar.
         obsidianSidebarGroup,
